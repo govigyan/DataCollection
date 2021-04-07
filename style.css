@@ -1,0 +1,80 @@
+
+            table, th, td {
+        border: 1px solid black;
+  border-collapse: collapse;
+            
+    }
+       
+      
+        body {
+          background-color: #e5dcec;
+        }
+        
+        #ty1,#ty2,#myForm,#myForm1,#myForm2{
+          background-color: #ffffff;
+          margin: 30px auto;
+          font-family: Raleway;
+          padding: 10px;
+          width: 80%;
+
+        }
+       
+        
+        .tab {
+          display: none;
+        }
+        
+        button {
+          background-color: #6d176a;
+          color: #ffffff;
+          border: none;
+          padding: 10px 20px;
+          font-size: 17px;
+          font-family: Raleway;
+          cursor: pointer;
+        }
+        
+        button:hover {
+          opacity: 0.8;
+        }
+        
+        #prevBtn {
+          background-color: #ad5de2;
+        }
+
+        img{
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    margin-top: 10px;
+   text-align: center;
+    
+  }
+  style='color:"red"'
+   text-align: center;
+  }
+
+  
+.image{
+  text-align: center;
+}
+.hineng{
+  text-align: center;
+}
+
+#myBtn {
+  display: none;
+  position: static;
+  bottom: 10px;
+  right : 20px;
+  font-size: 18px;
+  background-color: rgb(201, 33, 216);
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+}
+
+.ty{
+text-align: center;
+background-color: #ffffff;
+}

@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+
+
+ 
+<form id ="myForm2" >
+    <div class="tab">
+        <h3>हमसे कुछ शब्द ...</h3> 
+        <p> भारत में नागपुर शहर के पास देओलापार शहर में 1996 में स्थापित, गो विज्ञान अनुसंधान केंद्र <b>गाय</b> पर अनुसंधान और विकास
+             पर केंद्रित है और यह मानव जीवन की बेहतरी में संतान की भूमिका है। दृष्टि: किसानों, कृषि और पर्यावरण 
+             के लिए भारतीय गाय आधारित जीवन पद्धति विकसित करना है।
+            हमारे देश में, कई किसानों और संगठनों ने रासायनिक खेती बंद कर दी है|
+            गाय पर आधारित जैविक खेती के लिए और उत्कृष्ट परिणाम प्राप्त किए हैं। इसे ध्यान में रखते हुए,
+        हमने ऐसे किसानों और संगठनों से जानकारी एकत्र करने का निर्णय लिया है। </p>
+        <p> <b>Next</b> पर क्लिक करने से आप गाय और जैविक खेती से संबंधित प्रश्नों से संबंधित एक फॉर्म पर  निर्देशित होंगे।
+        आपसे अनुरोध है कि फ़ॉर्म को सही ढंग से भरें और उन बक्सों को खाली छोड़ दें जहाँ आपको जानकारी नहीं है।
+        <br> इसके अलावा, यदि आपके पास कोई है
+            आपके काम का समर्थन करने वाले दस्तावेज़ है, हमें <b> gauvigyandc@gmail.com </b> पर मेल करें
+        </p>
+        <p> यदि आपको फ़ॉर्म भरते वक़्त कठिनाइयाँ आती हैं, 
+        आप किसी भी नीचे दिए गए मोबाइल नंबर पर कॉल
+            करें|<br>
+            साकार जोहरापुरकर-9545550756<br>पियुष राजकारणे-9309534728<br>आदित्य देशमुख-9284225671</p>
+        <p><b> सादर, <br> सुनिल मानसिंहका </b> </p>
+        </div>
+    <div class="tab">
+        <h3>व्यक्तिगत जानकारी</h3>
+        <p>नाम <input placeholder="प्रथम नाम" name="username" size="10" required>&nbsp;&nbsp;<input placeholder="उपनाम" name="usersurname" size="10" required></p>
+        <p>संपर्क नंबर <input type="tel" name="contactno" size="10" required></p>
+        <p>ईमेल आईडी <input type="email" name="email" size="20" required></p>
+        <p>संस्था का नाम <input name="orgname" size="15" required></p> 
+        <p>संस्था का पता <input name="orgaddress" size="20" required></p>
+        <p>तालुका <input type="text" name="taluka" size="10"></p>
+        <p>जिला <input type="text" name="district" size="10" required></p>
+        <p>राज्य
+        <select name="state" >
+            <option value="Andhra Pradesh">आंध्र प्रदेश</option>
+            <option value="Arunachal Pradesh">अरुणाचल प्रदेश</option>
+            <option value="Assam">असम</option>
+            <option value="Bihar">बिहार</option>
+            <option value="Chhattisgarh">छत्तीसगढ़</option>
+            <option value="Goa">गोवा</option>
+            <option value="Gujarat">गुजरात</option>
+            <option value="Haryana">हरियाणा</option>
+            <option value="Himachal Pradesh">हिमाचल प्रदेश</option>
+            <option value="J&K">जम्मू और कश्मीर</option>
+            <option value="Jharkhand">झारखण्ड</option>
+            <option value="Karnataka">कर्नाटक</option>
+            <option value="Kerala">केरल</option>
+            <option value="Madhya Pradesh">मध्य प्रदेश</option>
+            <option value="Maharashtra">महाराष्ट्र</option>
+            <option value="Manipur">मणिपुर</option>
+            <option value="Meghalaya">मेघालय</option>
+            <option value="Mizoram">मिजोरम</option>
+            <option value="Nagaland">नागालैंड</option>
+            <option value="Odisha">ओडिशा</option>
+            <option value="Punjab">पंजाब</option>
+            <option value="Rajasthan">राजस्थान</option>
+            <option value="Sikkim">सिक्किम</option>
+            <option value="Tamil Nadu">तमिल नाडू</option>
+            <option value="Telangana">तेलंगाना</option>
+            <option value="Tripura">त्रिपुरा</option>
+            <option value="Uttar Pradesh">उत्तर प्रदेश</option>
+            <option value="Uttarakhand">उत्तराखंड</option>
+            <option value="West Bengal">पश्चिम बंगाल</option>
+            
+        </select>
+        </p>
+        <p>पिन कोड <input name="pincode" type="text" size="5" required></p>
+    </div>
+
+<div class="tab">
+    <h1>धारा १: गाय</h1>
+
+    <h3>१.  स्वदेशी गाय विकास</h3>
+    <table>
+    <tr>
+       <th>क्रम संख्या</th>
+       <th>नस्ल का नाम</th>
+       <th>संख्या </th>
+   </tr>
+   <tr>
+       <td>१</td>
+       <td><input placeholder="नस्ल नाम १" name="cowbreed1" type ="text" ></td>
+       <td><input  placeholder="संख्या" name="cno1" type ="number" size="10" min="0"></td>
+   </tr>
+   <tr>
+    <td>२</td>
+    <td><input placeholder="नस्ल नाम २" name="cowbreed2" type ="text"></td>
+       <td><input placeholder="संख्या" name="cno2" type ="number" size="10" min="0"></td>
+   </tr>
+   <tr>
+        <td>३</td>
+        <td><input placeholder="नस्ल नाम ३" name="cowbreed3" type ="text" ></td>
+        <td><input placeholder="संख्या" name="cno3" type ="number" size="10" min="0"></td>
+    </tr>
+    <tr>
+        <td>४</td>
+        <td><input placeholder="नस्ल नाम ४" name="cowbreed4" type ="text" ></td>
+        <td><input placeholder="संख्या" name="cno4" type ="number" size="10" min="0"></td>
+    </tr>
+    <tr>
+        <td>५</td>
+        <td><input placeholder="नस्ल नाम ५" name="cowbreed5" type ="text" ></td>
+        <td><input placeholder="संख्या" name="cno5" type ="number" size="10" min="0"></td>
+    </tr>
+</table>
+
+<h3>२. देशी सांड का पालन</h3>
+<table>
+    <tr>
+       <th>क्रम संख्या</th>
+       <th>नस्ल का नाम</th>
+       <th>बैल की संख्या</th>
+   </tr>
+   <tr>
+       <td>१</td>
+       <td><input name="bullbreed1" type ="text" placeholder="नस्ल नाम १"></td>
+       <td><input name="bno1" type ="number" size="10" placeholder="संख्या" min="0"></td>
+   </tr>
+   <tr>
+    <td>२</td>
+    <td><input name="bullbreed2" type ="text" placeholder="नस्ल नाम २"></td>
+    <td><input name="bno2" type ="number" size="10" placeholder="संख्या" min="0"></td>
+    </tr>
+</table>
+
+<h3>३. दूध प्रसंस्करण और उत्पाद</h3>
+<h5>दैनिक दूध उत्पादन  <input name="dailymilkprod" size="4" placeholder="लीटर मे" min="0"></h5>
+
+<table>
+    <tr>
+        <th>क्रम संख्या</th>
+        <th>विवरण</th>
+        <th>उत्पादन</th>
+        <th> उत्पादन का मूल्य</th>
+    </tr>
+        <tr>
+            <td>१</td>
+            <td>कच्चा दूध </td>
+            <td><input size="15" type="number" name ="rawmilk" placeholder="प्रति माह लीटर मे" min="0"></td>
+            <td><input size="15" type="number" name ="dismilkprice" placeholder="प्रति लीटर " min="0"></td>
+        </tr>
+           
+        <tr>
+            <td>२</td>
+            <td>उपचारित दूध  </td>
+            <td><input size="15" type="number" name ="treatedmilk" placeholder="प्रति माह लीटर मे" min="0"></td>
+            <td><input size="15" type="number" name ="Tmilkprice" placeholder="प्रति लीटर " min="0"></td>
+        </tr>
+            
+        <tr>
+            <td>३</td>
+            <td>घी </td>
+            <td><input size="15" type="number" name ="gheeprod" placeholder="प्रति माह किलोग्राम मे" min="0"></td>
+            <td><input size="15" type="number" name ="gheeprice" placeholder="प्रति किलो" min="0"></td>
+        </tr>
+    
+        <tr> 
+            <td>४</td>
+            <td>खोआ </td>
+            <td><input size="15" type="number" name ="khoaprod" placeholder="प्रति माह किलोग्राम मे" min="0"></td>
+            <td><input size="15" type="number" name ="khoaprice" placeholder="प्रति किलो" min="0"></td>
+        </tr>
+           
+        <tr>
+            <td>५</td>
+            <td>छाछ </td>
+            <td><input size="15" type="number" name ="buttermilkprod" placeholder="प्रति माह लीटर मे" min="0"></td>
+            <td><input size="15" type="number" name ="buttermilkprice" placeholder="प्रति लीटर " min="0"></td>
+        </tr>
+    
+        <tr>
+            <td>६ </td>
+            <td>पनीर </td>
+            <td><input size="15" type="number" name ="paneerprod" placeholder="प्रति माह किलोग्राम मे" min="0"></td>
+            <td><input size="15" type="number" name ="paneerprice" placeholder="प्रति किलो" min="0"></td>
+        </tr>
+</table>
+
+
+<h3>४. गाय के गोबर और गोमूत्र उत्पाद</h3>
+<h5>दैनिक गाय का गोबर संग्रह <input name="dailydungcollect" type="number" size="5" placeholder="किलोग्राम मे" min="0"></h5>
+<h5>दैनिक गाय का गोमूत्र संग्रह <input name="dailyurinecollect" type="number" size="5" placeholder="लीटर मे" min="0"></h5>
+
+<table>
+    <tr>
+    <th>क्रम संख्या</th>
+    <th>विवरण</th>
+    <th>उत्पादित पैकेट की संख्या</th>
+    <th>वजन </th>
+    <th>मूल्य</th>
+    </tr>
+    <tr>
+        <td>१</td>
+        <td>धूपबत्ती/अगरबत्ती </td>
+        <td><input type="number" placeholder="प्रति माह" name ="dhoopprod" size="15" min="0"></td>
+        <td><input type="number" name ="dhoopwt" placeholder="प्रति पैकेट किलोग्राम में" size="15" step="0.05" min="0"></td>
+        <td><input type="number" name ="dhoopprice" size="15" placeholder="प्रति पैकेट" min="0"></td>
+    </tr>
+    <tr>
+        <td>२</td>
+        <td>मॉस्किटो रिपेलेंट कोइल </td>
+        <td><input type="number" placeholder="प्रति माह" name ="mosrepcoilprod" size="15" min="0"></td>
+        <td><input type="number" name ="mosrepcoilwt" size="15" placeholder="प्रति पैकेट किलोग्राम में" step="0.05" min="0"></td>
+        <td><input type="number" name ="mosrepcoilprice" size="15" placeholder="प्रति पैकेट" min="0"></td>
+    </tr>
+        
+    <tr>
+        <td>३</td>
+        <td>गोमुत्र अर्क </td>
+        <td><input type="number" placeholder="प्रति माह" name ="gomutraarkaprod" size="15" min="0"></td>
+        <td><input type="number" name ="gaarkaquantity" size="15" placeholder="प्रति पैकेट किलोग्राम में" step="0.05" min="0"></td>
+        <td><input type="number" name ="gaarkaprice" size="15" placeholder="प्रति पैकेट" min="0"></td>
+    </tr>
+
+    <tr> 
+        <td>४</td>
+        <td>साबुन</td>
+        <td><input type="number" placeholder="प्रति माह" name ="soapprod" size="15" min="0"></td>
+        <td><input type="number" name ="soapwt" size="15" placeholder="प्रति पैकेट किलोग्राम में" step="0.1" min="0"></td>
+        <td><input type="number" name ="soapprice" size="15" placeholder="प्रति पैकेट" min="0"></td>
+    </tr>
+       
+    <tr>
+        <td>५</td>
+
+        <td>मंजन</td> 
+        <td><input type="number" placeholder="प्रति माह" name ="manjanprod" size="15" min="0"></td>
+        <td><input type="number" name ="manjanwt" size="15" placeholder="प्रति पैकेट किलोग्राम में" step="0.1" min="0"></td>
+        <td><input type="number" name ="manjanprice" size="15" placeholder="प्रति पैकेट" min="0"></td>
+    </tr>
+
+</table>
+
+<h3>५. Panchagavya</h3>
+<table>
+    <tr>
+    <th>क्रम संख्या</th>
+    <th>विवरण</th>
+    <th>केंद्रों की संख्या</th>
+    <th>जिलो के नाम</th>
+    </tr>
+       <tr>
+            <td>१</td>
+            <td>मानव पंचगव्य उपचार केंद्र </td>
+            <td><input type="number" name ="hptcno" size="15" min="0"></td>
+            <td><input type="text" name ="hptcdis" size="15"></td>
+       </tr>
+    <tr>
+        <td>२</td>
+        <td>पशु पंचगव्य उपचार केंद्र </td>
+        <td><input type="number" name ="aptcno" size="15" min="0"></td>
+        <td><input type="text" name ="aptcdis" size="15"></td>
+    </tr>
+        
+    <tr>
+        <td>३</td>
+        <td>पंचगव्य चिकित्सा और उत्पाद वितरण केंद्र </td>
+        <td><input type="number" name ="pmpdcno" size="15" min="0"></td>
+        <td><input type="text" name ="pmpdcdis" size="15"></td>
+    </tr>
+
+</table>
+
+<h3>६ . गोबर गैस प्लांट</h3>
+<table>
+    <tr>
+    <th>क्रम संख्या</th>
+    <th>प्लांट का प्रकार</th>
+    <th>प्लांट की संख्या</th>
+    <th>प्लांट का आकार</th>
+    </tr>
+    <tr>
+        <td>१</td>
+        <td><input type="text" name ="ggptype1"></td>
+        <td><input type="number" name ="ggpno1" size="15" min="0"></td>
+        <td><input type="number" name ="ggpsize1" size="15" min="0"></td>
+    </tr>
+    <tr>        
+        <td>२</td>
+        <td><input type="text" name ="ggptype2"></td>
+        <td><input type="number" name ="ggpno2" size="15" min="0"></td>
+        <td><input type="number" name ="ggpsize2" size="15" min="0"></td>
+    </tr>
+
+</table>
+
+<h3>७. सामाजिक प्रश्न </h3>
+<h4>७.१. क्या आपके आसपास के क्षेत्र में गोहत्या बंद हो गई है? </h4>
+<input type="radio" name="cowslaughterstop" value="yes"> हाँ 
+<input type="radio" name="cowslaughterstop" value="no" > नही
+<h4>७.२. क्या आपके क्षेत्र में शराब की खपत कम हो गई है?</h4>
+<input type="radio" name="alcoholconsume" value="yes"> हाँ 
+<input type="radio" name="alcoholconsume" value="no"> नही
+<h4>७.३. क्या स्वास्थ्य व्यय में कमी आई है?</h4>
+<input type="radio" name="healthexpred" value="yes"> हाँ 
+<input type="radio" name="healthexpred" value="no"> नही
+<h4>७.४. क्या युवा इस क्षेत्र में शामिल हो रहे हैं?</h4>
+<input type="radio" name="youthinvolvement" value="yes"> हाँ 
+<input type="radio" name="youthinvolvement" value="no" > नही
+<h4>७.५. क्या आपने किसी केंद्र या राज्य सरकार की योजना का लाभ लिया है?</h4>
+<input type="radio" name="govtschemes"  value="yes"> हाँ 
+<input type="radio" name="govtschemes"  value="no"> नही
+<h4>७.६ . क्या आपने अन्य लोगों के लिए प्रशिक्षण कार्यशालाएं आयोजित की हैं?</h4>
+<input type="radio" name="trainingworkshop" value="yes" > हाँ 
+<input type="radio" name="trainingworkshop" value="no" > नही
+</div>
+
+
+<div class="tab"> 
+    <h1>धारा 2: गाय-आधारित जैविक खेती</h1>
+        
+        
+            <h3>१. किसानों ने गौ आधारित जैविक खेती की ओर रुख किया </h3>
+            <h4>किसानों की संख्या <input name="nooffarmertoOF" type="number" size="5" min="0"></h4>
+            <h4>कुल क्षेत्रफल <input name="areaforOF" type="number" size="5" min="0" placeholder="हैक्टर मे"></h4>
+        
+    <h3>२.गाय-आधारित कृषि आदान इनपुट</h3>
+        
+        <table>
+            <tr>
+               <th>क्रम संख्या</th>
+               <th>विवरण</th>
+               <th>उत्पादन </th>
+               <th>मूल्य </th>
+           </tr>
+           <tr>
+               <td>१</td>
+               <td>वर्मी कम्पोस्ट</td>
+               <td><input size="15" name="vermicompprod" type ="number" placeholder="प्रति माह किलोग्राम मे" min="0"></td>
+                <td><input size="15" name="vermicompprice" type ="number" placeholder="प्रति किलो" min="0"></td>
+            </tr>
+            <tr>
+                <td>२</td>
+                <td>अमृतपानी </td>
+                <td><input size="15" name="amrutpaniprod" type ="number" placeholder="प्रति माह लीटर मे" min="0"></td>
+                 <td><input size="15" name="amrutpaniprice" type ="number" placeholder="प्रति लीटर " min="0"></td>
+             </tr>
+             <tr>
+                <td>३</td>
+                <td>कीट नियंत्रक</td>
+                <td><input size="15" name="keetniyantrakprod" type ="number" placeholder="प्रति माह लीटर मे" min="0"></td>
+                 <td><input size="15" name="keetniyantrakprice" type ="number" placeholder="प्रति लीटर " min="0"></td>
+             </tr>
+        
+             <tr>
+                <td>४</td>
+                <td>प्लांट जैव बढ़ाने वाला</td>
+                <td><input size="15" name="bioenhancerprod" type ="number" placeholder="प्रति माह किलोग्राम मे" min="0"></td>
+                 <td><input size="15" name="bioenhancerprice" type ="number" placeholder="प्रति किलो" min="0"></td>
+             </tr>
+        
+        
+        </table>
+        
+        <h3>३. जैविक बीज संग्रह और वितरण</h3>
+        <table>
+            <tr>
+                <th>क्रम संख्या</th>
+                <th> बीज नाम </th>
+                <th>उत्पादन</th>
+                <th>मूल्य</th>
+            </tr>
+        
+                    
+                <tr>
+                    <td>१</td>
+                    <td><input size="15" type="text" name ="seedname1" ></td>
+                    <td><input size="15" type="number" name ="seedprod1" placeholder="किलोग्राम मे" min="0"></td>
+                    <td><input size="15" type="number" name ="seedprice1" placeholder="प्रति किलो" min="0"></td>
+                </tr>
+                    
+                <tr>
+                    <td>२</td>
+                    <td><input size="15" type="text" name ="seedname2" ></td>
+                    <td><input size="15" type="number" name ="seedprod2" placeholder="किलोग्राम मे" min="0"></td>
+                    <td><input size="15" type="number" name ="seedprice2" placeholder="प्रति किलो" min="0"></td>
+                </tr>
+            
+                <tr> 
+                    <td>३</td>
+                    <td><input size="15" type="text" name ="seedname3" ></td>
+                    <td><input size="15" type="number" name ="seedprod3" placeholder="किलोग्राम मे" min="0"></td>
+                    <td><input size="15" type="number" name ="seedprice3" placeholder="प्रति किलो" min="0"></td>
+                </tr>
+                   
+               
+        </table>
+        
+        
+        <h3>४. फसल डेटा</h3>
+        <table>
+            <tr>
+            <th>वर्ष</th>
+            <th>खरीफ सीजन की फसलें </th>
+            <th>रबी सीजन की फसलें</th>
+            
+            </tr>
+            <tr>
+                <td>२०१९-२०२०</td>
+                <td><input type="text" name ="kharif2019" ></td>
+                <td><input type="text" name ="rabi2019" ></td>
+            </tr>
+            <tr>
+                <td>२०२०-२०२१</td>
+                <td><input type="text" name ="kharif2020" ></td>
+                <td><input type="text" name ="rabi2020" ></td>
+               
+            </tr>
+        </table>
+
+        
+        <h3>५.  गौ आधारित जैविक खेती की ओर रुख करने के बाद किसान की आय में औसत वृद्धि</h3>
+        <h5>औसत आय पहले <input name="incomebeforeOF" type="text" size="5" placeholder="प्रति वर्ष" min="0"> </h5>
+        <h5>औसत आय बाद  <input name="incomeafterOF" type="text" size="5" placeholder="प्रति वर्ष" min="0"></h5>
+
+
+        <h3>६ . मल्टी-क्रॉपिंग पैटर्न</h3>
+        <table>
+            <tr>
+            <th>क्रम संख्या</th>
+            <th>फसल १</th>
+            <th>फसल २</th>
+            <th>फसल ३</th>
+            
+            </tr>
+               
+            <tr>
+                <td>१</td>
+                <td><input size="10" type="text" name ="crop11" ></td>
+                <td><input size="10" type="text" name ="crop12" ></td>
+                <td><input size="10" type="text" name ="crop13" ></td>
+                
+               
+            </tr>
+
+            <tr>
+                <td>२</td>
+                <td><input size="10" type="text" name ="crop21" ></td>
+                <td><input size="10" type="text" name ="crop22" ></td>
+                <td><input size="10" type="text" name ="crop23" ></td>
+                
+              
+            </tr>
+
+        </table>
+        <h3>७ .  फसल की गुणवत्ता का परीक्षण किया गया है?</h3>
+        <input type="radio" name="testofcrop" value="yes"> हाँ 
+        <input type="radio" name="testofcrop" value="no"> नही
+        
+        <h3>8. गैर दुधारू गायों की मांग करने वाले किसानों की संख्या</h3>
+        <input name="nooffarmersnonmilkcows" type="text" size="5">
+        
+        <h3>9. बैल द्वारा तैयार किए गए औजार का उपयोग करने वाले किसान</h3>
+        <table>
+            <tr>
+                <th>किसानो की संख्या</th>
+                <th>औज़ार के नाम</th>
+            </tr>
+            <tr>
+                <td><input type="number" name="nooffarmersoximplements" min="0"></td>
+                <td><input type="text" name="oximplements" placeholder="हल,कल्टीवेटर,सवार"></td>
+            </tr>
+        </table>
+
+        <h3>१०. सामाजिक प्रश्न </h3>
+        <h4>१०.१. क्या आपके आसपास के क्षेत्र में जैविक खाद और कीटनाशक बेचने वाली दुकानें शुरू हो गई हैं?</h4>
+        <input type="radio" name="organicshopstart" value="yes"> हाँ 
+        <input type="radio" name="organicshopstart" value="no"> नही
+        <h4>१०.२.  क्या भूजल स्तर में वृद्धि हुई है?</h4>
+        <input type="radio" name="groundwaterinc" value="yes"> हाँ 
+        <input type="radio" name="groundwaterinc" value="no"> नही
+        <h4>१०.३. क्या आपके क्षेत्र में वनीकरण बढ़ा है?</h4>
+        <input type="radio" name="afforestationinc" value="yes"> हाँ 
+        <input type="radio" name="afforestationinc" value="no" > नही
+        <h4>१०.४.क्या युवाओं के लिए रोजगार सृजन शुरू हो गया है?</h4>
+        <input type="radio" name="youthempstart" value="yes"> हाँ 
+        <input type="radio" name="youthempstart" value="no"> नही
+        <h4>१०.५. जैविक खेती की ओर रुख करने के बाद, क्या किसानों की आत्महत्या कम हो गई है?</h4>
+        <input type="radio" name="suicidesstop" value="yes"> हाँ 
+        <input type="radio" name="suicidesstop" value="no"> नही
+        <h4>१०.६ . क्या आपने गाय आधारित जैविक खेती पर कोई प्रशिक्षण लिया है?</h4>
+        <input type="radio" name="attendedtraining" value="yes"> हाँ 
+        <input type="radio" name="attendedtraining" value="no"> नही
+        <br><br>
+</div>
+<div style="overflow:auto;">
+    <div style="float:right;">
+      <button type="button" id="prevBtn" onclick="nextPrev(-1)" aria-controls="">Previous</button>
+      <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+      <button type="button" id="Sub" onclick="Submit()">Submit</button>
+      
+    </div>
+  </div>
+
+
+  
+</form>
+
+<script
+src = "https://code.jquery.com/jquery-3.4.1.js "
+integrity = "sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU= "
+crossorigin = "anonymous" ></script>
+
+<script>
+   var mybutton = document.getElementById("myBtn");
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 195 || document.documentElement.scrollTop > 195) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+function Submit(){
+   
+  $.ajax({
+      url:'https://api.apispreadsheets.com/data/10607/',
+      type:'post',
+      data:$("#myForm2").serializeArray(),
+      success: function(){
+        window.open('tyh.html',"_self")
+        document.getElementById("myForm2").reset(); 
+        
+      },
+      error: function(){
+        alert("कृपया पुन: प्रयास करें ")
+      }
+     
+  });
+ 
+}
+        var currentTab = 0; 
+        showTab(currentTab); 
+        
+        function showTab(n) {
+          var x = document.getElementsByClassName("tab");
+          x[n].style.display = "block";
+         
+          if (n == 0) {
+        document.getElementById("prevBtn").style.display = "none";
+        document.getElementById("nextBtn").style.display = "inline";
+        document.getElementById("Sub").style.display = "none";
+      } else if(n== (x.length)-1){
+        document.getElementById("prevBtn").style.display = "inline";
+        document.getElementById("nextBtn").style.display = "none";
+        document.getElementById("Sub").style.display = "inline";
+      }
+      else{
+        document.getElementById("prevBtn").style.display = "inline";
+        document.getElementById("nextBtn").style.display = "inline";
+        document.getElementById("Sub").style.display = "none";
+        
+
+      }
+        
+    }    
+        function nextPrev(n) {
+          var x = document.getElementsByClassName("tab");
+          x[currentTab].style.display = "none";
+         
+          currentTab = currentTab + n;
+          showTab(currentTab);
+        }
+
+       
+
+</script>
+
+</html>
+
